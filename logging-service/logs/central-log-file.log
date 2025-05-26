@@ -1,0 +1,45 @@
+2025-05-23 12:10:03 - Starting LoggingServiceApplication using Java 21.0.4 with PID 26020 (C:\Users\2393120\Spring Boot\spring-integration\logging-service\target\classes started by 2393120 in C:\Users\2393120\Spring Boot\spring-integration\logging-service)
+2025-05-23 12:10:03 - No active profile set, falling back to 1 default profile: "default"
+2025-05-23 12:10:03 - Fetching config from server at : http://localhost:9999
+2025-05-23 12:10:03 - Located environment: name=logging-service, profiles=[default], label=null, version=ee4f72306bfd3d67f64fb4c329d51251b7345c6c, state=
+2025-05-23 12:10:03 - BeanFactory id=2385f31d-3212-35f4-addd-c6fd660a1373
+2025-05-23 12:10:04 - Tomcat initialized with port 9096 (http)
+2025-05-23 12:10:04 - Starting service [Tomcat]
+2025-05-23 12:10:04 - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-23 12:10:04 - Initializing Spring embedded WebApplicationContext
+2025-05-23 12:10:04 - Root WebApplicationContext: initialization completed in 884 ms
+2025-05-23 12:10:04 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-23 12:10:04 - Eureka HTTP Client uses RestTemplate.
+2025-05-23 12:10:04 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-23 12:10:05 - Setting initial instance status as: STARTING
+2025-05-23 12:10:05 - Initializing Eureka in region us-east-1
+2025-05-23 12:10:05 - Resolving eureka endpoints via configuration
+2025-05-23 12:10:05 - Disable delta property : false
+2025-05-23 12:10:05 - Single vip registry refresh property : null
+2025-05-23 12:10:05 - Force full registry fetch : false
+2025-05-23 12:10:05 - Application is null : false
+2025-05-23 12:10:05 - Registered Applications size is zero : true
+2025-05-23 12:10:05 - Application version is -1: true
+2025-05-23 12:10:05 - Getting all instance registry info from the eureka server
+2025-05-23 12:10:05 - The response status is 200
+2025-05-23 12:10:05 - Starting heartbeat executor: renew interval is: 30
+2025-05-23 12:10:05 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-23 12:10:05 - Discovery Client initialized at timestamp 1747982405311 with initial instances count: 1
+2025-05-23 12:10:05 - Registering application LOGGING-SERVICE with eureka with status UP
+2025-05-23 12:10:05 - Saw local status change event StatusChangeEvent [timestamp=1747982405314, current=UP, previous=STARTING]
+2025-05-23 12:10:05 - DiscoveryClient_LOGGING-SERVICE/LTIN593291.cts.com:logging-service:9096: registering service...
+2025-05-23 12:10:05 - Tomcat started on port 9096 (http) with context path '/'
+2025-05-23 12:10:05 - Updating port to 9096
+2025-05-23 12:10:05 - Started LoggingServiceApplication in 10.678 seconds (process running for 11.501)
+2025-05-23 12:10:05 - DiscoveryClient_LOGGING-SERVICE/LTIN593291.cts.com:logging-service:9096 - registration status: 204
+2025-05-23 12:10:13 - Application shutdown requested.
+2025-05-23 12:10:13 - Unregistering application LOGGING-SERVICE with eureka with status DOWN
+2025-05-23 12:10:13 - Saw local status change event StatusChangeEvent [timestamp=1747982413087, current=DOWN, previous=UP]
+2025-05-23 12:10:13 - DiscoveryClient_LOGGING-SERVICE/LTIN593291.cts.com:logging-service:9096: registering service...
+2025-05-23 12:10:13 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-23 12:10:13 - Graceful shutdown complete
+2025-05-23 12:10:13 - Shutting down DiscoveryClient ...
+2025-05-23 12:10:13 - DiscoveryClient_LOGGING-SERVICE/LTIN593291.cts.com:logging-service:9096 - registration status: 204
+2025-05-23 12:10:13 - Unregistering ...
+2025-05-23 12:10:13 - DiscoveryClient_LOGGING-SERVICE/LTIN593291.cts.com:logging-service:9096 - deregister  status: 200
+2025-05-23 12:10:13 - Completed shut down of DiscoveryClient
